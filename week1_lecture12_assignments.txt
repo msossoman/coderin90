@@ -1,0 +1,9 @@
+﻿Question
+What does the code below do?
+
+Answer
+name = "tom"
+	   print name.capitalize() 	this will print “Tom”
+	   print name.upper()		this will print “TOM”
+	   print name.reverse()		help() told me that there is no reverse 
+								attribute for str objects

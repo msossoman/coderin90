@@ -1,0 +1,35 @@
+﻿Question 1
+Given the list x = [1, 2, [3, 5, 6]] How would you access the integer 6 in list x?
+
+Answer
+x = [1, 2, [3, 5, 6]]
+y = x[2]
+y[2]
+
+prints 6
+
+OR
+
+x [2][2]
+
+
+Question 2
+Suppose you have a list of words, how would you create a string from them?
+list_of_words = [‘I’, ‘love’, ‘ice’, ‘cream’]
+
+Answer
+“”.join (list_of_words) will return “Iloveicecream” OR “ “.join() returns “I love ice cream”
+
+
+Question 3
+Can lists be added to each other? We saw that we could add strings hello + world earlier
+
+Answer
+Yes, lists respond to operators in the same way strings do from what I can tell.
+
+
+Question 4
+What does the len() keyword to do a list?
+
+Answer
+len() keyword measures the length of a string or list 
