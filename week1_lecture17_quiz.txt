@@ -1,0 +1,33 @@
+Question 1
+Can you access items in a tuple? If yes, how?
+
+Answer 1
+Yes, in the same way you access items in a list, by calling on the indexed number of the item.
+
+Question 2
+How would you convert a tuple to a list? Hint: use the list() function
+
+Answer 2
+Convert a tuple to a list using the list() method. Example:
+myTuple = (1, 2, 3)
+myList = list(myTuple)
+print myList
+[1, 2, 3]
+
+Question 3
+Can the data type methods we saw in lists work on tuples?
+
+Answer 3
+No, as far as I can tell, none of the data type methods will work on tuples since tuples are immutable.
+
+Question 4
+How can we fix this operation?
+
+(1) + (3, 4, 5, 6) so that the result is (1, 3, 4, 5, 6)
+
+Answer 4
+Add a comma after the 1, as in:
+(1,) + (3, 4, 5, 6)
+would result in
+(1, 3, 4, 5, 6)
+
