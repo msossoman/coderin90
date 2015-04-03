@@ -1,4 +1,4 @@
-def add (a, b):
+#def add (a, b):
 	c = a + b
 	print "The answer is: {0} + {1} = {2}".format(a, b, c)
 
